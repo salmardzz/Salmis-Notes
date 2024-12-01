@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #F7BFBE;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background-color: #DD969C;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.logo{
+    margin-left: 30px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: violet;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(./img/sss.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    padding: 0 100px;
+
+}
+
+
+h1{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    padding: 0 100px;
+
+}
+
+li{
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    padding: 0 100px;
+
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #E9BABC;
+    color: #fff;
+    text-decoration: none;
+    background-color: #E9BABC;
+
+}
+
+.btn:hover {
+    background: none;
+
+}
+
+.btn-home{
+    display: flex;
+}
+
+.btn-home{
+    margin: 0 10px;
+}
+
+.content{
+    
+    height: 50vh;
+    display: flex;
+ 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.row {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.esp{
+    background-color: #aeadad;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 40%;
+}
+
+.text {
+    max-width: 400px;
+    margin: auto;
+    text-align: right;
+}
+
+.text h1 {
+    font-size: 1.875rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}
+
+
+.geo {
+    background-color: #7f8f9f;
+    color: white;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 40%;
+}
+
+.text {
+    max-width: 400px;
+    margin: auto;
+    text-align: right;
+}
+
+.text h1 {
+    font-size: 1.875rem;
+}
+
+.text p {
+    font-size: 1.2rem;
+}
+
+.contenedor {
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #333;
+    background-color: rgb(229, 177, 251);
+}
+
+
+
+/* Elementos inline-block*/
+.en-linea-bloque {
+    background-color: #ffcdd2;
+    border: 2px solid violet;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+/* Pseudo clase, cambiar el color al hacer click*/
+.en-linea-bloque:hover {
+    background-color: violet;
+    color: white;
+}
