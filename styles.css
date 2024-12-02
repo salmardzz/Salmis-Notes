@@ -114,6 +114,8 @@ li{
     color: #fff;
     text-decoration: none;
     background-color: #E9BABC;
+    margin: 0 auto;
+
 
 }
 
@@ -124,10 +126,18 @@ li{
 
 .btn-home{
     display: flex;
+
+    
 }
 
-.btn-home{
-    margin: 0 10px;
+
+
+.seccion-familiar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    padding: 15px;
+    margin-top: 20px;
+
 }
 
 .content{
@@ -210,6 +220,10 @@ li{
     background-color: rgb(229, 177, 251);
 }
 
+
+.texto-grande {
+    font-size: 24px;
+}
 
 
 /* Elementos inline-block*/
