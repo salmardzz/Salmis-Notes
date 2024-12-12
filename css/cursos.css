@@ -1,0 +1,74 @@
+#cursos {
+    width: 100%;
+    min-height: 70vh;
+    padding: 5vh 10vw;
+    background: linear-gradient(to right, #f5f5f5, #fce4ec);
+    text-align: center;
+}
+
+.cursos-container h2 {
+    font-size: 2.5rem;
+    color: #d2727a;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(210, 114, 122, 0.5);
+}
+
+.cursos-container p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.cursos-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.curso-card {
+    width: 300px;
+    background: white;
+    border: 2px solid #d2727a;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.curso-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.curso-header h3 {
+    font-size: 1.5rem;
+    color: #d2727a;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.curso-content p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.btn-curso {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #d2727a;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-curso:hover {
+    background-color: #c0606b;
+    transform: scale(1.1);
+}

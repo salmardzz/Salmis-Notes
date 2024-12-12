@@ -1,0 +1,72 @@
+#apuntes {
+    width: 100%;
+    min-height: 60vh;
+    padding: 5vh 10vw;
+    background: linear-gradient(to right, #fff6f6, #f7d9db);
+    text-align: center;
+}
+
+.apuntes-container h2 {
+    font-size: 2.5rem;
+    color: #d2727a;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px rgba(210, 114, 122, 0.5);
+}
+
+.apuntes-container p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.apuntes-grid {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.apunte-card {
+    width: 250px;
+    background: white;
+    border: 2px solid #d2727a;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apunte-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.apunte-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.apunte-card h3 {
+    font-size: 1.2rem;
+    color: #d2727a;
+    margin-bottom: 10px;
+}
+
+.btn-descargar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #d2727a;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-descargar:hover {
+    background-color: #c0606b;
+    transform: scale(1.1);
+}

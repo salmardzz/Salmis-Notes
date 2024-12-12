@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <section id="contacto">
+        <div class="contacto-container">
+            <h2 data-aos="fade-down" data-aos-duration="1000">Contáctame</h2>
+            <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                Si tienes preguntas, sugerencias o simplemente quieres decir hola, no dudes en enviarme un mensaje. ¡Te responderé lo antes posible!
+            </p>
+            <form action="https://formspree.io/f/tu-email-aqui" method="POST" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="_replyto" placeholder="Tu email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
