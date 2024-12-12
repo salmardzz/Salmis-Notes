@@ -8,7 +8,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    
+
 }
 html{
     overflow-x: hidden;
@@ -345,11 +345,11 @@ section{
 
 
 footer {
-    background-color: #DD969C;
-    color: white;
-    padding: 1rem;
+    background-color: #cea5a9;
+    color: black;
+    padding: 0.2rem;
     text-align: center;
-    height: 60px;
+    height: 30px;
     position: fixed;
     bottom: 0;
     width: 100%;
