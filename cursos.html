@@ -7,9 +7,39 @@
     <link rel="stylesheet" href="./css/cursos.css">
 </head>
 <body>
+
+
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Salmis Notes 🫧</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="./index.html">Inicio 🪷 </a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="./Sobre-mi.html">Sobre mí 🎀 </a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="./cursos.html">Cursos 👩🏻‍💻</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="./apuntes.html">Apuntes 📝 </a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="./interes.html">Enlaces de interés 🪐</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="./contact.html">Contáctame 🌸 </a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="./index.html">Inicio 🪷</a>
+                <a href="./Sobre-mi.html">Sobre mí 🎀</a>
+                <a href="./cursos.html">Cursos 👩🏻‍💻</a>
+                <a href="./apuntes.html">Apuntes 📝</a>
+                <a href="./interes.html">Enlaces de interés 🪐༘</a>
+                <a href="./contact.html">Contáctame 🌸</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+
     <section id="cursos">
         <div class="cursos-container">
-            <h2 data-aos="fade-down" data-aos-duration="1000">Nuestros Cursos</h2>
+            <h2 data-aos="fade-down" data-aos-duration="1000">Cursos</h2>
             <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 Descubre nuestros cursos diseñados para prepararte para la universidad de tus.
             </p>
@@ -20,7 +50,7 @@
                     </div>
                     <div class="curso-content">
                         <p>Aprende los conceptos fundamentales de la física, desde mecánica clásica hasta electromagnetismo.</p>
-                        <a href="curso-fisica.html" target="_blank" class="btn-curso">Más Información</a>
+                        <a href="anim.html" target="_blank" class="btn-curso">Más Información</a>
                     </div>
                 </div>
                 <div class="curso-card">
@@ -29,20 +59,41 @@
                     </div>
                     <div class="curso-content">
                         <p>Refuerza tus habilidades en álgebra, cálculo diferencial e integral, y más áreas esenciales.</p>
-                        <a href="curso-matematicas.html" target="_blank" class="btn-curso">Más Información</a>
+                        <a href="anim.html" target="_blank" class="btn-curso">Más Información</a>
                     </div>
                 </div>
                 <div class="curso-card">
+                    <img src="./img/español.jpg" alt="Español">
+                    
+                    
                     <div class="curso-header">
                         <h3>Curso de Español</h3>
                     </div>
-                    <div class="curso-content">
-                        <p>Domina los fundamentos de la lengua.</p>
-                        <a href="curso-programacion.html" target="_blank" class="btn-curso">Más Información</a>
+                    
+        
+                        <a href="anim.html" target="_blank" class="btn-curso">Más Información</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script>
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
+
+
 </body>
+
+
 </html>
