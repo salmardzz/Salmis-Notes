@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/pp.png" type="image/x-icon">
     <title>Sobre mí</title>
     <link rel="stylesheet" href="./css/contact.css">
 </head>
@@ -36,7 +37,7 @@
         </div>
     </nav>
 
-    
+
     <section id="contacto">
         <div class="contacto-container">
             <h2 data-aos="fade-down" data-aos-duration="1000">Contáctame</h2>
@@ -63,4 +64,19 @@
         </div>
     </section>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+
 </html>

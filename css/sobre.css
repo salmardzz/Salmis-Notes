@@ -141,6 +141,20 @@ section{
     align-items: center;
 } 
 
+.main-container .content{
+    color: black;
+    width: 40%;
+    min-height: 100px;
+}
+
+.content h1{
+    font-size: clamp(1rem, 2rem + 5vw, 3rem);
+}
+.content h1 span{
+    color: #da7b83;
+    text-shadow: 0 0 10px rgb(231, 193, 208);
+}
+
 #sobre-mi {
     width: 100%;  
     min-height: 90vh; 

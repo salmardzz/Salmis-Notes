@@ -114,6 +114,7 @@ nav{
     box-shadow: 0 0 20px black;
     transition: 0.2s linear;
 }
+
 .dropdown .links a{
     color: white;
     display: flex;
@@ -197,24 +198,41 @@ nav{
 }
 
 @media (max-width: 884px) {
-    #enlaces-interes {
-        padding: 5vh 5vw;
-    }
 
-    .enlaces-container h2 {
-        font-size: 2rem;
+    body{
+        overflow-y: visible;
     }
-
-    .enlaces-container p {
-        font-size: 0.9rem;
+    nav .logo{
+        position: absolute;
+        top: 16px;
+        left: 15px;
+        font-size: 1.5rem;
     }
-
-    .enlace-item {
-        font-size: 0.9rem;
-        padding: 8px 12px;
+    .main-container{
+        display: flex;
+        flex-direction: column;
     }
-
-    .enlace-item i {
-        font-size: 1.2rem;
+    .nav-container .links{
+        display: none;
     }
+    .hamburg,.cancel{
+        display: block;
+    }
+    .main-container .content{
+        width: 80%;
+    }
+    .social-links i{
+        width: 2.5rem;
+        height: 2.5rem;
+        font-size: 1.5rem;
+    }
+    .cancel{
+        color: white;
+    }
+    .main-container .image{
+        width: 80%;
+        margin-bottom: 0px;
+    }
+    
+   
 }
