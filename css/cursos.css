@@ -49,6 +49,7 @@ nav{
     font-size: 2rem;
     display: none;
 }
+
 .nav-container .links {
     display: flex;
     gap: 3rem;
@@ -338,6 +339,21 @@ section{
     opacity: 1;
 }
 
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-shadow);
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--secondary-shadow);
+    width: 50px;
+}
+
+
 @media (max-width:884px) {
     body{
         overflow-y: visible;
@@ -373,9 +389,5 @@ section{
         width: 80%;
         margin-bottom: 0px;
     }
-
-
-
-
     
 }
